@@ -1,0 +1,268 @@
+/* default content coloring */
+/* REDS */
+/* GREYS */
+/* useful classes... maybe i should do these in includes someday >.> */
+.shadow {
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+  box-shadow: 2px 2px 7px #151515;
+}
+body {
+  background: #b3b9c0;
+  color: #111111;
+  text-decoration: none;
+  font: 15px "Droid Serif", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 20px;
+  min-width: 1000px;
+}
+.futura {
+  font-family: Futura, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+a {
+  color: #B36CB0;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+a:hover {
+  color: #C226BB;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+a:visited {
+  color: #C226BB;
+}
+a.white {
+  color: #ffffff;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+a:hover.white {
+  color: #e51717;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 45px;
+  font-family: Futura, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+h3 {
+  font-size: 1.6em;
+  line-height: 2em;
+  font-family: Futura, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+  font-size: 1em;
+}
+.fullpagebar {
+  background-color: #272727;
+  border-right: #b71212 solid 10px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 10px;
+  line-height: 30px;
+}
+/* page layout */
+#page {
+  margin: 0 auto;
+  width: 999px;
+  padding-top: 20px;
+  display: block;
+  text-align: right;
+}
+#opage {
+  margin: 0 auto;
+  width: 666px;
+  padding-top: 20px;
+  display: block;
+  clear: both;
+}
+#topbar {
+  background-color: #272727;
+  border-right: #943C7F solid 10px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 10px;
+  line-height: 30px;
+  text-align: right;
+  min-width: 999px;
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+  box-shadow: 2px 2px 7px #151515;
+}
+#topbar #page a {
+  margin-right: 24px;
+}
+#topbar #logout {
+  width:200px;
+  right:20px;
+  top:4px;
+}
+#topbar #minilogo {
+  line-height: 60px;
+  background-image: url("../img/minilogo.png");
+  width: 204px;
+  height: 61px;
+  background-repeat: no-repeat;
+  background-attachment: top left;
+  margin-left: 20px;
+}
+#topbar #minilogo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.post {
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+  box-shadow: 2px 2px 7px #151515;
+  border-right: #b71212 solid 10px; //943C7F
+  color: #eeeeee;
+  line-height: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #272727;
+}
+.post a {
+  font-weight: bold;
+}
+#services {
+  line-height: 25px;
+}
+#content {
+  width: 600px;
+  float: left;
+}
+#content p {
+  line-height: 30px;
+}
+#rightcol {
+  width: 290px;
+  float: left;
+  margin-left: 40px;
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+  box-shadow: 2px 2px 7px #151515;
+  border-right: #943C7F solid 10px;
+  color: #eeeeee;
+  line-height: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #272727;
+}
+#rightcol a {
+  font-weight: bold;
+}
+#footer {
+  color: #eeeeee;
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+  margin-top: 40px;
+}
+html input[type=text],
+html input[type=password],
+body input[type=text],
+body input[type=password] {
+  padding: 7px;
+  font-size: 13px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #eeeeee;
+  border: none;
+  border-right: #943C7F solid 10px;
+}
+html input.submit,
+html input.button,
+html a.submit,
+html a.button,
+body input.submit,
+body input.button,
+body a.submit,
+body a.button {
+  border: none;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  -moz-box-shadow: 2px 2px 6px #232323;
+  -webkit-box-shadow: 2px 2px 6px #232323;
+  box-shadow: 2px 2px 6px #232323;
+  margin: 0;
+  padding: 0;
+  background-color: #B36CB0;
+  color: #111111;
+  font-size: 14px;
+  display: inline-block;
+  height: 28px;
+  line-height: 27px;
+  vertical-align: top;
+  padding: 1px 20px 3px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+html input.submit:hover,
+html input.button:hover,
+html a.submit:hover,
+html a.button:hover,
+body input.submit:hover,
+body input.button:hover,
+body a.submit:hover,
+body a.button:hover {
+  background-color: #C226BB;
+  text-decoration: none;
+  -moz-box-shadow: 0px 0px 6px #111111;
+  -webkit-box-shadow: 0px 0px 6px #111111;
+  box-shadow: 0px 0px 6px #232323;
+  color: #eeeeee;
+  -webkit-transition: color 0.3s linear;
+}
+#lbox {
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+  box-shadow: 2px 2px 7px #151515;
+  border-right: #943C7F solid 10px;
+  color: #eeeeee;
+  line-height: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #272727;
+  width: 400px;
+  margin: 60px auto;
+  text-shadow: 0 1px
+}
+#lbox p {
+	color: ;#373737;
+}
+#lbox a {
+  font-weight: bold;
+}
+#lbox input.text {
+  width: 280px;
+}
+#logo {
+  background-image: url("../img/logo.png");
+  width: 600px;
+  height: 147px;
+  background-repeat: no-repeat;
+  margin: 40px auto 20px;
+}
+#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.field {
+	text-align: right;
+}
